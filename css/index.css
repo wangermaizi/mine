@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mine{
+    margin: 50px auto;
+}
+.level{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.level button{
+    padding: 5px 15px;
+    background-color: #c7edcc;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+
+    cursor: pointer;//
+    /*点的时候有一个手*/
+}
+.level button.active{
+    background-color: #00abff;
+}
+.info{
+    margin-top: 10px;
+    text-align: center;
+}
+table{
+    border-spacing: 1px;
+    background-color: #929196;
+    margin: 0 auto;
+}
+table td{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #ffffff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+}
+.mine{
+    background-color: #d9d9d9;
+    background-size: cover;
+    background-image: url("../img/mine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flag{
+    background-color: #cccccc;
+    background-size: cover;
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+td.zero{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    width: 22px;
+    height: 22px;
+}
+td.one{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #0332fe;
+    width: 22px;
+    height: 22px;
+}
+td.two{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #019f02;
+    width: 22px;
+    height: 22px;
+}
+td.three{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #ff2600;
+    width: 22px;
+    height: 22px;
+}
+td.four{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #93208f;
+    width: 22px;
+    height: 22px;
+}
+td.five{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #ff7f29;
+    width: 22px;
+    height: 22px;
+}
+td.six{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #ff3fff;
+}
+td.seven{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #3fffbf;
+}
+td.eight{
+    background-color: #d9d9d9;
+    border: #d9d9d9;
+    color: #22ee0f;
+}
